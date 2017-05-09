@@ -24,7 +24,7 @@ a.logo{
 	color: #fff;
 	line-height: 80px;
 	text-align: center;
-	font-size: 23px;font-style: light;
+	font-size: 23px;
 	font-style: regular;
 	text-decoration: none;
 	float: left;
@@ -56,4 +56,21 @@ button.navbar-toggle{
 }
 .navbar-toggle .icon-bar{
 	background: #fff;
+}
+
+@media (max-width:768px){
+	a.logo{
+		margin-left: 15px;
+		margin-bottom: 5px;
+	}
+	ul.nav li{
+		float: none;
+		height:initial;
+	}
+	.nav li>a:hover{
+		background: #556274;
+	}
+	.nav li>a{
+		padding: 10px 15px;
+	}
 }
