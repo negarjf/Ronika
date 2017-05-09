@@ -63,13 +63,18 @@ button.navbar-toggle{
 		margin-left: 15px;
 		margin-bottom: 5px;
 	}
+	div.collapse{
+		width: 100%;
+		padding:0;
+
+	}
 	ul.nav li{
 		float: none;
 		height:initial;
+		display: block;
+		
 	}
-	.nav li>a:hover{
-		background: #556274;
-	}
+	
 	.nav li>a{
 		padding: 10px 15px;
 	}
