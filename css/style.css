@@ -1,0 +1,59 @@
+html,body{
+
+	height:2000px;
+	font-family: 'Signika', sans-serif;
+}
+section.home{
+	background: #2d343e url('../img/BG-Home.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+}
+nav.navbar-style{
+	background: rgba(45,52,62,0.8);
+	padding: 20px 0;
+}
+a.logo{
+	background: #ee4c62;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+	font-size: 23px;font-style: light;
+	font-style: regular;
+	text-decoration: none;
+	float: left;
+}
+div.collapse{
+	float: left;
+
+}
+
+ul.nav li{
+	float: left;
+	height:80px;
+}
+.nav li>a{
+	line-height: 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 30px 15px;
+	transition: all 0.35s;
+}
+.nav li>a:hover{
+	background: transparent;
+	color: #ee4c62;
+	transition: all 0.35s;
+}
+button.navbar-toggle{
+	background: #556274;
+}
+.navbar-toggle .icon-bar{
+	background: #fff;
+}
