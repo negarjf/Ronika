@@ -1,18 +1,25 @@
 html,body{
 	margin:0;
 	padding: 0;
-	height:2000px;
 	font-family: 'Signika', sans-serif;
 }
-
 nav{
 	float: left;
 	z-index: 1000;
 	width: 100%;
 }
+.nav-fixed{
+	position: fixed;
+	left:0;
+	top: 0;
+	right: 0;
+	z-index: 10;
+}
+
 .home{
 	background: #2d343e url('../images/bg-Home.jpg') no-repeat center center fixed;
 	background-size: cover;
+	padding-top: 200px;
 	padding-bottom: 20px;
 	width: 100%;
 	
@@ -20,7 +27,7 @@ nav{
 .navbar-style{
 	background: rgba(45,52,62,0.8);
 	padding: 20px 0;
-	margin-bottom: 80px; 
+	
 }
 a.logo{
 	background: #ee4c62;
@@ -47,6 +54,7 @@ a.logo{
 	height:80px;
 }
 .nav li a{
+	text-transform: capitalize;
 	line-height: 20px;
 	color: #fff;
 	font-size: 20px;
@@ -60,6 +68,9 @@ a.logo{
 	color: #ee4c62;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
+}
+.nav li a:focus{
+	background-color: transparent;
 }
 .navbar-toggle{
 	background: #556274;
